@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => {
   let base = '/'
 
   if (isProduction) {
-    base = '/vue3-flowchart/'
+    base = '/survival-game/'
   }
 
   return {
